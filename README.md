@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : GARCIA
+- PRÉNOM : Lucie
+- GROUPE : A1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/i7ZlqEqkMIf7a9HspyxHPH/SA%C3%89_105_Lucie_GARCIA?node-id=1-2&t=C7DBuAmYVsSfttFA-1 
 
 ## Sujet
 
