@@ -1,0 +1,41 @@
+img,
+picture,
+video,
+canvas {
+    display: block;
+    /* Supprime l'espace sous l'image (inline) */
+    max-width: 100%;
+    /* Ne dépasse jamais son conteneur */
+    height: auto;
+    /* Garde les proportions */
+}
+
+figure {
+    margin: 0;
+}
+
+
+body {
+    color: var(--bleu);
+    font-family: var(--font-sans);
+}
+
+h1 {
+    color: var(--blanc, #FFF);
+    text-align: center;
+    font-family: var(--font-deco);
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    font-family: var(--font-sans);
+    color: var(--bleu);
+}
+
+h3 {
+    font-family: var(--font-deco);
+    color: var(--blanc);
+}

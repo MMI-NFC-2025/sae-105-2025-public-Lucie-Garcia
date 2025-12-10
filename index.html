@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenue sur la page d'accueil de SavouFest." />
+    <title>Accueil</title>
+
+    <!-- links to other files -->
+
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
+
+    <!-- Favicons -->
+
+    <link rel="icon" type="image/png" href="/assets/favicon-SF/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-SF/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon-SF/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-SF/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicon-SF/site.webmanifest" />
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Kumbh+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__link" href="/">
+            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo SavouFest" />
+        </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/">Accueil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/lefestival.html">Le Festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/artistes.html">Artistes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/scenes.html">Scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/infos-pratiques.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero__content">
+                <img src="/assets/icons/leafs-top.svg" alt="feuilles dans le coin" class="hero__leafs-top" />
+                <h1 class="hero__title">SavouFest</h1>
+                <p class="hero__subtitle_1">Les 12 et 13 juin</p>
+                <p class="hero__subtitle_2">édition 2026</p>
+            </div>
+            <div class="hero__divider">
+                <img src="/assets/icons/leafs-divider.svg" alt="Transition de feuilles" class="hero__leafs-divider" />
+            </div>
+        </div>
+        <section class="section section__home-page-content">
+            <header class="section__header">
+                <h2 class="section__intro">2 jours de musique & nature !</h2>
+                <button class="btn-cta btn-cta__place">Réserver ma place</button>
+            </header>
+            <div class="pages-cards">
+                <a href="/programme.html" class="pages-cards__card">
+                    <img src="/assets/Images/hero-programme.avif" alt="Photo du festival" class="pages-cards__img" />
+                    <h2 class="pages-cards__title">Programme</h2>
+                </a>
+                <a href="/artistes.html" class="pages-cards__card">
+                    <img src="/assets/Images/hero-artistes.avif" alt="Photo d'artistes sur scène"
+                        class="pages-cards__img" />
+                    <h2 class="pages-cards__title">Artistes</h2>
+                </a>
+                <a href="/scenes.html" class="pages-cards__card">
+                    <img src="/assets/Images/hero-scenes.avif" alt="Photo d'une scène du festival"
+                        class="pages-cards__img" />
+                    <h2 class="pages-cards__title">Scènes</h2>
+                </a>
+                <a href="/infos-pratiques.html" class="pages-cards__card">
+                    <img src="/assets/Images/hero-infos.avif" alt="Photo d'un public au festival"
+                        class="pages-cards__img" />
+                    <h2 class="pages-cards__title">Infos Pratiques</h2>
+                </a>
+            </div>
+        </section>
+        <footer class="footer">
+            <section class="footer__green">
+                <h3 class="footer__title">SavouFest</h3>
+                <nav class="footer__nav">
+                    <ul class="u-list-unstyled footer__list-nav">
+                        <li class="footer__item">
+                            <a class="footer__link" href="/lefestival.html">À propos</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h4 class="footer__subtitle">Nous suivre</h4>
+                <nav class="footer__socials"></nav>
+                <ul class="u-list-unstyled footer__list-socials">
+                    <li class="footer__socials-item">
+                        <a class="footer__link-socials" href="https://instagram.com"> <img
+                                src="/assets/icons/logo Instagram.svg"></a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__link-socials" href="https://www.TikTok.net/"> <img
+                                src="/assets/icons/logo TikTok.svg"></a>
+                    </li>
+                    <li class="footer__socials-item">
+                        <a class="footer__link-socials" href="https://www.youtube.com/"> <img
+                                src="/assets/icons/logo Youtube.svg"></a>
+                    </li>
+                </ul>
+                </nav>
+            </section>
+            <section class="footer__partners">
+                <img src="/assets/icons/logo-montbeliard.svg" alt="Logos du partenaire Montbéliard"
+                    class="footer__partners-img" />
+                <img src="/assets/icons/logo-credit-agricole.svg" alt="Logos du partenaire Crédit agricole"
+                    class="footer__partners-img" />
+                <img src="/assets/icons/logo-carrefour.svg" alt="Logos du partenaire Carrefour"
+                    class="footer__partners-img" />
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>
