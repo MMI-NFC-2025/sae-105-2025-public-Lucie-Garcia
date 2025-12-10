@@ -1,0 +1,29 @@
+.menu {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    list-style: none;
+    display: flex;
+    gap: var(--space-5xl);
+    flex-direction: column;
+    padding: var(--space-4xl);
+}
+
+.menu::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: var(--gray-900);
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu[hidden] {
+    visibility: hidden;
+}
+
+.menu[hidden]::before {
+    transform: translateY(-100vh);
+    transition-delay: 0.25s;
+}
