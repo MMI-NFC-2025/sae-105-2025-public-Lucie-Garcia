@@ -16,3 +16,14 @@ if (toggle && nav) {
         page.classList.toggle("u-noscroll", isClosed);
     });
 }
+
+const ArrowBottom = document.querySelector(".arrow-bottom");
+if (ArrowBottom) {
+    ArrowBottom.addEventListener("click", () => {
+        const target = window.scrollY + window.innerHeight * 0.7; // 50% de la hauteur visible
+        window.scrollTo({
+            top: target,
+            behavior: "smooth",
+        });
+    });
+}

@@ -1,0 +1,57 @@
+.hero__content {
+    background-image: url("/assets/Images/hero.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+
+}
+
+.hero__title {
+    color: var(--blanc);
+    text-align: center;
+    font-family: var(--font-deco);
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -4rem;
+    left: -0.7rem;
+}
+
+.hero__subtitle {
+    color: var(--menthe);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    gap: 3rem;
+    top: -11.5rem;
+    left: 1rem;
+}
+
+.hero__leafs-top {
+    position: relative;
+    top: -1rem;
+
+}
+
+.hero__leafs-divider {
+    position: relative;
+    top: -9rem;
+    width: 100%;
+}
+
+.arrow-bottom {
+    position: relative;
+    top: -19rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
