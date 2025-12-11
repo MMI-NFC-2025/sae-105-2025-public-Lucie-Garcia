@@ -25,6 +25,18 @@ body {
     box-sizing: border-box;
 }
 
+.u-noscroll {
+    position: fixed;
+    /* verrouille la page à la position courante */
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0 */
+    width: 100%;
+    overflow: hidden;
+    /* désactive le scroll */
+    touch-action: none;
+    /* optionnel : désactive le scroll tactile */
+}
+
 body {
     color: var(--bleu);
     font-family: var(--font-sans);

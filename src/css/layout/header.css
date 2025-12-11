@@ -1,13 +1,19 @@
-.header {
-    background-color: var(--vert-fonce);
-    position: sticky;
-    top: 0;
-    z-index: 15;
+.header__top-bar {
     display: flex;
-    padding: 0.5rem;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--vert-fonce);
+    padding: 0.5rem;
 }
+
+
 
 .header__link {
     z-index: 16;
