@@ -19,5 +19,7 @@
 .contact__section {
 
     padding: 2rem;
+    position: relative;
+    top: -8rem;
 
 }

@@ -65,25 +65,27 @@ h3 {
 input,
 textarea {
     width: 100%;
-    padding: 10px 14px;
-    border-radius: 20px;
-    border: 2px solid #a6c8e8;
+    padding: 6px 14px;
+    border-radius: 0.7rem;
+    border: 1px solid var(--bleu);
     outline: none;
     font-size: 0.95rem;
     resize: none;
     background: #fff;
 }
 
-textarea {
-    border-radius: 15px;
-}
 
 a {
     text-decoration: none;
+    color: var(--noir);
 }
 
 button {
     cursor: pointer;
     border: none;
     background: none;
+}
+
+li {
+    list-style: none;
 }

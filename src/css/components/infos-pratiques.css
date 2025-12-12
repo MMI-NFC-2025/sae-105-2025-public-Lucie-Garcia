@@ -1,0 +1,88 @@
+/* Component styles for infos-pratiques page */
+.infos-pratiques {
+    max-width: 720px;
+    margin: 1rem;
+    font-family: var(--font-sans);
+    color: var(--noir);
+    position: relative;
+    top: -5rem;
+}
+
+.infos-pratiques__section {
+    margin-bottom: 2.25rem;
+}
+
+.infos-pratiques__title {
+    font-family: var(--font-sans);
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0 0 0.75rem 0;
+    color: var(--vert-feuille);
+}
+
+.infos-pratiques__title--blue {
+    color: var(--bleu);
+}
+
+.infos-pratiques__title--beige {
+    color: var(--beige);
+}
+
+.infos-pratiques__title--green {
+    color: var(--vert-feuille);
+}
+
+.infos-pratiques__subtitle {
+    font-weight: 700;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.infos-pratiques__text {
+    margin: 0 0 1rem 0;
+    line-height: 1.6;
+    color: var(--noir);
+}
+
+.infos-pratiques__list {
+    margin: 0.5rem 0 0 1rem;
+    padding: 0;
+}
+
+.infos-pratiques__item {
+    margin: 0.5rem 0;
+    list-style: disc;
+}
+
+.infos-pratiques__emphasis {
+    font-weight: 800;
+}
+
+.infos-pratiques__faq {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.infos-pratiques__faq-item {
+    margin: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding-bottom: 0.75rem;
+}
+
+.infos-pratiques__question {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--noir);
+    cursor: pointer;
+}
+
+.infos-pratiques__answer {
+    margin-top: 0.5rem;
+    color: var(--gris);
+}

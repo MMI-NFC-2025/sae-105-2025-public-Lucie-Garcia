@@ -1,0 +1,149 @@
+/* Styles for Programme page */
+.programme__container {
+  margin: 1rem;
+  position: relative;
+  top: -5rem;
+}
+
+.programme__controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  min-width: 100%;
+}
+
+.programme__days {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.programme__day-btn {
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--bleu);
+  background: var(--blanc);
+  color: var(--bleu);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.programme__day-btn:hover {
+  background: var(--jaune-clair);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+.programme__filters {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.programme__filter {
+  background: var(--blanc);
+  border: 1px solid var(--bleu);
+  color: var(--bleu);
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.programme__filter:hover {
+  background: var(--menthe);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.03) inset;
+}
+
+.programme__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.programme__item {
+  display: flex;
+  align-items: center;
+}
+
+.programme__img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 14px 0 0 14px;
+  min-height: 6rem;
+  min-width: 6rem;
+}
+
+.programme__card {
+  background: var(--gris-clair);
+  border-radius: 0 18px 18px 0;
+  padding: 1rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 6rem;
+  min-height: 6rem;
+}
+
+
+
+.programme__artist-name {
+  margin: 0 0 0.25rem 0;
+  color: var(--vert-fonce);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0.5;
+}
+
+.programme__artist-genre {
+  margin: 0 0 0.25rem 0;
+  color: var(--vert-feuille);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.programme__stage {
+  color: var(--vert-fonce);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0;
+}
+
+.programme__time {
+  margin: 0.25rem 0 0 0;
+  color: var(--vert-feuille);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.5;
+}
+
+.programme__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+.programme__pdf-btn {
+  display: inline-block;
+  text-align: center;
+  background: var(--bleu-ciel);
+  color: var(--blanc);
+  padding: 0.9rem 1.6rem;
+  border-radius: 22px;
+  text-decoration: none;
+  font-weight: 800;
+  box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  max-width: 14rem;
+}
