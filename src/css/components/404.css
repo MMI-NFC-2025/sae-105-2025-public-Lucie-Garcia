@@ -1,0 +1,64 @@
+.main-404 {
+    min-height: calc(100vh - 6rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: var(--blanc);
+}
+
+.error-card {
+    width: 100%;
+    max-width: 780px;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    text-align: center;
+    background: var(--blanc);
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.12);
+}
+
+.error-code {
+    font-family: var(--font-deco);
+    font-size: 6rem;
+    color: var(--bleu);
+    margin: 0 0 0.5rem;
+    line-height: 1;
+}
+
+.error-title {
+    font-family: var(--font-sans);
+    font-size: 2rem;
+    color: var(--noir);
+    margin: 0 0 0.75rem;
+}
+
+.error-text {
+    color: var(--gris);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-cta__accueil {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-link {
+    color: var(--bleu);
+    text-decoration: underline;
+    font-weight: 600;
+}

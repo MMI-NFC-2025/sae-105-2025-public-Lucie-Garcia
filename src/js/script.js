@@ -81,3 +81,11 @@ if (carouselSamedi) {
         });
     }
 }
+
+/* Bouton pour retour arrière (404) */
+const backBtn = document.querySelector("#backBtn");
+if (backBtn) {
+    backBtn.addEventListener("click", () => {
+        window.history.back();
+    });
+}
