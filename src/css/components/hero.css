@@ -50,13 +50,13 @@
 
 .hero__leafs-divider {
     position: relative;
-    top: -10rem;
+    top: -8.5rem;
     width: 100%;
 }
 
 .arrow-bottom {
     position: relative;
-    top: -21rem;
+    top: -18rem;
     left: 50%;
     transform: translateX(-50%);
 }
