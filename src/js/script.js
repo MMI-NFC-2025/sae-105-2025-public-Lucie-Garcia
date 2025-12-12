@@ -1,15 +1,15 @@
+//menu rectractable, l'interaction est visible partout depuis l'icon de menu burger mais voici l'accueil pour aller tester : https://savoufest.netlify.app
+
 const toggle = document.querySelector(".menu-btn");
 const nav = document.querySelector(".menu");
 const logo = document.querySelector(".header__logo");
 const page = document.body;
 
-// Vérifier si les éléments existent avant d'ajouter l'événement
 if (toggle && nav) {
     toggle.addEventListener("click", () => {
         const isOpen = toggle.ariaExpanded === "true";
         const isClosed = !isOpen;
 
-        // Mise à jour des attributs ARIA pour accessibilité
         toggle.ariaExpanded = isClosed;
         nav.hidden = isOpen;
         logo.classList.toggle("header__logo--extend", isClosed);
@@ -17,6 +17,8 @@ if (toggle && nav) {
     });
 }
 
+//Voici l'interaction suplémentaire de mon choix, lorsque l'on apuis sur "arrow" la page scroll vers le bas. 
+// L'interaction se voit uniquemement sur l'accueil : https://savoufest.netlify.app
 const ArrowBottom = document.querySelector(".arrow-bottom");
 if (ArrowBottom) {
     ArrowBottom.addEventListener("click", () => {
@@ -29,7 +31,8 @@ if (ArrowBottom) {
 }
 
 
-/* Voici les carousels presents dans le site */
+/* Voici les carousels présents dans le site */
+//ils sont visible depuis cette page : https://savoufest.netlify.app/artistes
 /* Carousel Vendredi */
 const carouselVendredi = document.querySelector(".carousel__artiste__vendredi");
 if (carouselVendredi) {
@@ -82,7 +85,9 @@ if (carouselSamedi) {
     }
 }
 
-/* Bouton pour retour arrière (404) */
+//voici une autre interaction suplémentaire ( supposer fonctionné ) elle doit permettre de retourné sur la page précedente, cepandant comme je n'arrive qu'a accedé a la page ou elle se situe (404) uniquement via un lien direct cette fonction ne peu fonctionné je n'ai pas pu la tester
+//lien malgré tout (ne fonctionnera pas via ce lien du coup): https://savoufest.netlify.app/404
+// /* Bouton pour retour arrière (404) */
 const backBtn = document.querySelector("#backBtn");
 if (backBtn) {
     backBtn.addEventListener("click", () => {
