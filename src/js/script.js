@@ -27,3 +27,57 @@ if (ArrowBottom) {
         });
     });
 }
+
+
+/* Voici les carousels presents dans le site */
+/* Carousel Vendredi */
+const carouselVendredi = document.querySelector(".carousel__artiste__vendredi");
+if (carouselVendredi) {
+    const containerVendredi = carouselVendredi.querySelector(".carousel__artiste__vendredi__container");
+    const btnPrevVendredi = carouselVendredi.querySelector(".carousel__artiste__vendredi__prev");
+    const btnNextVendredi = carouselVendredi.querySelector(".carousel__artiste__vendredi__next");
+
+    if (btnPrevVendredi && btnNextVendredi && containerVendredi) {
+        const scrollAmount = 300;
+
+        btnPrevVendredi.addEventListener("click", () => {
+            containerVendredi.scrollBy({
+                left: -scrollAmount,
+                behavior: "smooth",
+            });
+        });
+
+        btnNextVendredi.addEventListener("click", () => {
+            containerVendredi.scrollBy({
+                left: scrollAmount,
+                behavior: "smooth",
+            });
+        });
+    }
+}
+
+/* Carousel Samedi */
+const carouselSamedi = document.querySelector(".carousel__artiste__samedi");
+if (carouselSamedi) {
+    const containerSamedi = carouselSamedi.querySelector(".carousel__artiste__samedi__container");
+    const btnPrevSamedi = carouselSamedi.querySelector(".carousel__artiste__samedi__prev");
+    const btnNextSamedi = carouselSamedi.querySelector(".carousel__artiste__samedi__next");
+
+    if (btnPrevSamedi && btnNextSamedi && containerSamedi) {
+        const scrollAmount = 300;
+
+        btnPrevSamedi.addEventListener("click", () => {
+            containerSamedi.scrollBy({
+                left: -scrollAmount,
+                behavior: "smooth",
+            });
+        });
+
+        btnNextSamedi.addEventListener("click", () => {
+            containerSamedi.scrollBy({
+                left: scrollAmount,
+                behavior: "smooth",
+            });
+        });
+    }
+}

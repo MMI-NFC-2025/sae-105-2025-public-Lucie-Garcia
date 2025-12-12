@@ -1,0 +1,55 @@
+.card-scenes__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: relative;
+    top: -3rem;
+}
+
+.card-scenes__img {
+    position: relative;
+    width: 21.875rem;
+    height: 15.625rem;
+    border-radius: 1.25rem 1.25rem 1.25rem 0;
+    object-fit: cover;
+
+}
+
+.card-scenes__title.scene-foret {
+    color: var(--blanc);
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: -4.6rem;
+    border-left: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-right: 5rem;
+    background-color: var(--vert-feuille);
+    border-radius: 0 3.75rem 0 0;
+}
+
+.card-scenes__title.scene-grande {
+    color: var(--noir);
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: -4.6rem;
+    border-right: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-left: 5rem;
+    padding-left: 5rem;
+    background-color: var(--beige);
+    border-radius: 3.75rem 0 0 0;
+
+}

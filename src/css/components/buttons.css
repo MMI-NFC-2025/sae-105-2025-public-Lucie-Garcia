@@ -25,3 +25,34 @@
     position: relative;
     top: -11rem;
 }
+
+.btn__prev,
+.btn__next {
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid var(--bleu);
+    border-radius: 0.50rem;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    font-size: 1.5rem;
+    color: var(--bleu);
+    transition: all 0.3s ease;
+}
+
+.carousel__artiste__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    gap: 0.2rem;
+}
+
+.btn__prev:hover,
+.btn__next:hover {
+    background-color: var(--bleu);
+    color: var(--blanc);
+    transform: scale(1.05);
+}
