@@ -1,0 +1,10 @@
+.contact__title {
+    color: var(--noir);
+    text-align: center;
+    /* Sous titres */
+    font-family: "Kumbh Sans";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
