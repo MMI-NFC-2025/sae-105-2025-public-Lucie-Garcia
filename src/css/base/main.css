@@ -61,3 +61,19 @@ h3 {
     font-family: var(--font-deco);
     color: var(--blanc);
 }
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 20px;
+    border: 2px solid #a6c8e8;
+    outline: none;
+    font-size: 0.95rem;
+    resize: none;
+    background: #fff;
+}
+
+textarea {
+    border-radius: 15px;
+}

@@ -1,3 +1,8 @@
+.hero {
+    position: relative;
+    top: 4.55rem;
+}
+
 .hero__content {
     background-image: url("/assets/Images/hero.avif");
     background-color: rgba(var(--bleu-rgb), 0.5);

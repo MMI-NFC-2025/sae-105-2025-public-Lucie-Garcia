@@ -31,14 +31,16 @@
 
 <body>
     <header class="header">
-        <a class="header__link" href="/">
-            <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo SavouFest" />
-        </a>
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
-            <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
-            <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
-        </button>
+        <section class="header__top-bar">
+            <a class="header__link" href="/">
+                <img class="header__logo" src="/assets/icons/logo.svg" alt="Logo SavouFest" />
+            </a>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
+                <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
+                <span class="menu-btn__bar menu-btn__bar--bottom" aria-hidden="true"></span>
+            </button>
+        </section>
 
         <nav class="header__menu menu" id="mainNav" hidden>
             <ul class="menu__list u-list-unstyled">
@@ -67,6 +69,16 @@
         </nav>
     </header>
     <main>
+        <div class="hero-pages">
+            <div class="hero-pages__content hero-pages__scenes">
+                <img src="/assets/icons/leafs-top.svg" alt="feuilles dans le coin" class="hero-pages__leafs-top" />
+                <h1 class="hero-pages__title ">Scènes</h1>
+            </div>
+            <div class="hero-pages__bottom">
+                <img src="/assets/icons/leafs-divider.svg" alt="Transition de feuilles"
+                    class="hero-pages__leafs-divider" />
+            </div>
+        </div>
 
     </main>
     <footer class="footer">

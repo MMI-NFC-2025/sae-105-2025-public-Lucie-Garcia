@@ -1,0 +1,103 @@
+.hero-pages {
+    position: relative;
+    top: 4.55rem;
+}
+
+
+.hero-pages__artistes {
+    background-image: url("/assets/Images/hero-artistes.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+}
+
+.hero-pages__apropos {
+    background-image: url("/assets/Images/hero-apropos.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right -3rem;
+    height: 25rem;
+}
+
+.hero-pages__infos-pratiques {
+    background-image: url("/assets/Images/hero-infos.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right -3rem;
+    height: 25rem;
+}
+
+.hero-pages__programme {
+    background-image: url("/assets/Images/hero-programme.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+}
+
+.hero-pages__scenes {
+    background-image: url("/assets/Images/hero-scenes.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 25rem;
+}
+
+.hero-pages__contact {
+    background-image: url("/assets/Images/hero-contact.avif");
+    background-color: rgba(var(--bleu-rgb), 0.5);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+}
+
+.hero-pages__title {
+    color: var(--blanc);
+    text-align: center;
+    font-family: var(--font-deco);
+    font-size: var(--text-big-titles);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: -4.5rem;
+    left: -0.2rem;
+}
+
+.hero-pages__long-title {
+    top: -10rem;
+}
+
+.hero-pages__leafs-top {
+    position: relative;
+    top: -1rem;
+
+}
+
+.leafs-top-right {
+    left: 60%;
+    transform: scaleX(-1)
+}
+
+.hero-pages__leafs-divider {
+    position: relative;
+    top: -8.2rem;
+    width: 100%;
+}
+
+.leafs-divider-flip {
+    transform: scaleX(-1);
+}

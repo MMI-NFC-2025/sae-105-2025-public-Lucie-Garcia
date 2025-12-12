@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: -14rem;
+    top: -10rem;
     color: var(--vert-fonce, #2A5C31);
     text-align: center;
     font-family: var(--font-sans);
@@ -14,4 +14,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.contact__section {
+
+    padding: 2rem;
+
 }
